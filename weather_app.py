@@ -3,7 +3,7 @@ import requests
 import pandas as pd
 import plotly.express as px
 
-API_KEY = 'd67f4c6e4dd22025bc01ee4b94e96392'
+API_KEY = 'YOUR_OPEN-WEATHER_API_KEY'   #Put Your API key here
 
 def fetch_weather(city):
     base_url = "http://api.openweathermap.org/data/2.5/forecast"
